@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const { serverConfig } = require("../config/config");
-const { whitelist } = require("../config/whitelist");
 require("../databaseConnection/databaseConnection");
 
 const app = express();
